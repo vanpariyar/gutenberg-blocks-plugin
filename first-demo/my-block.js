@@ -1,6 +1,6 @@
+import { registerBlockType } from '@wordpress/blocks';
 
-
-wp.blocks.registerBlockType('guten/guten-box',{
+registerBlockType('guten/guten-box',{
     title: 'my cool Border box',
     icon: 'smiley',
     category: 'common',
